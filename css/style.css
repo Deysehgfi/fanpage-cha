@@ -1,0 +1,72 @@
+:root{
+    --salmao: #D6AE9D;
+    --black: #141416;
+    --black-light: #171717;
+    --white:#ffff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* background-image: linear-gradient(to rigth, black pink); */
+    background-image: linear-gradient(to right, var(--black), var(--salmao));
+}
+
+
+/* cabeçalho--------------------------------------------------------------------------------------------------------------------- */
+header{
+    border-bottom: solid 1px var(--white) ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.315);
+    /* position: fixed;
+    top: 0; */
+}
+.logo{
+    font-family: "Julius Sans One", sans-serif;
+    color: var(--white);
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(50);
+    padding: 20px;
+    
+}
+
+.links-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.link{
+    color: var(--white);
+    font-family:  "Julius Sans One", sans-serif;
+    font-size: 20px;
+}
+
+/* corpo----------------------------------------------------------------------------------------------------------------------------- */
+
+/* section-1------------- */
+.section-1{
+    background-image: url(../img/img-Home.png);
+}
+
+.titule{
+    font-family:"Lexend Deca", sans-serif;
+    color: var(--white);
+    font-size: 100px;
+}
